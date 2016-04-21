@@ -2757,7 +2757,7 @@ function fuzzyDropdownInit($, subSearch) {
       evt.stopPropagation();
       $arrowSpan.toggleClass(_opts.arrowUpClass);
       $dropdownCont.slideToggle(100);
-      if ($dropdownCont.is(':visible')) $searchInput.focus().select();
+      // if ($dropdownCont.is(':visible')) $searchInput.focus().select();
       clearSelectedClass();
     });
 
